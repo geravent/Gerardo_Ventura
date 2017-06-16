@@ -9,11 +9,9 @@ package gerardo.ventura;
  *
  * @author T-
  */
-public class Imc {
-    public float calcular(Usuario u){
-        //Aqui va la logica del calculo
-        float resultado= u.getPeso()/(u.getAltura()*u.getAltura());
-        return resultado;
+public class NumeroNoNegativoException extends Exception{
+  //extends es hija de   
+    public NumeroNoNegativoException(){
+        super("No puedes meter numeros negativos");
     }
-    
 }

@@ -110,8 +110,8 @@ public class Aplicacion extends javax.swing.JFrame {
        
         float Altura=Float.parseFloat(tAltura);
        Usuario u=new Usuario();
-        u.altura=Altura;
-        u.peso=peso;
+        u.setAltura(Altura);
+        u.setPeso(peso);
         //Generamos el modelo
         Imc imc=new Imc();
        

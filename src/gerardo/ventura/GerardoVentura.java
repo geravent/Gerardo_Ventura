@@ -20,8 +20,8 @@ public class GerardoVentura {
         //Crear un usuario hipotetico
         Usuario u=new Usuario();
         //Le asignamos valores
-        u.altura=1.68f;
-        u.peso=73f;
+        u.setAltura(1.68f);
+        u.setPeso(73f);
         //Generamos el modelo
         Imc imc=new Imc();
        
